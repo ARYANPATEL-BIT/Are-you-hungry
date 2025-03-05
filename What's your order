@@ -1,0 +1,29 @@
+name = input("What is your name? ")
+age = int(input("What is your year of birth? "))
+weight = int(input("What is you weight? "))
+order = input("What would you like have? ")
+if order == "pizza":
+    a = int(input("How many pizza would you like to have? "))
+    b = a
+    c = a * int(599)
+    d = 2025  - int(age)
+    print(" name = " + name)
+    print(f" age = {d} " )
+    print(f" weight = {weight} " )
+    print(f"Your order for {a} pizza is on the way"
+          )
+    print(f"Your grand total = {c}" )
+else:
+     a = int(input("How many burgers would you like to have? "))
+     b = a
+     c = a  * 89
+     d = 2025 - int(age)
+     print( "     name = " + name)
+     print( f"     Age = {d}")
+     print(f'''
+     Weight = {weight}
+     Your order for {b} burgers is on the way
+     
+     Your grand total = {c}
+     
+     ''')

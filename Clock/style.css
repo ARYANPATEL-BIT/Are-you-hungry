@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+
+#clock-counter{
+    height: 100vh;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+#clock{
+    font-weight: bold;
+    font-size: 6rem;
+    font-family: monospace;
+    text-align: center;
+}

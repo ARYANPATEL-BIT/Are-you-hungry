@@ -40,7 +40,7 @@ function update(){
     elapsedTime = CurrentTime - startTime;
 
     let hours = Math.floor(elapsedTime / (1000 * 60 * 60));
-    let minutes = Math.floor(elapsedTime / (100 * 60)% 60);
+    let minutes = Math.floor(elapsedTime / (1000 * 60)% 60);
     let seconds = Math.floor(elapsedTime / 1000) % 60 ;
     let millisecond = Math.floor(elapsedTime % 1000 / 10);
 
